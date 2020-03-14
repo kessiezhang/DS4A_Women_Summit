@@ -31,11 +31,11 @@ Airline_EDA_Kessie.ipynb
 * Airline_traffic_stock_EDA_Sakshi.ipynb </br>
 
 Sakshi created 5 columns for the flight_traffic table: 
-<tr>departure_delay (Actual_departure - Scheduled_departure), 
-arrival_delay (Actual_arrival - Scheduled_arrival) , 
-elapsed_delay (Actual_elapsed - Scheduled_elapsed ), 
-flight cancelled or not, 
-flight diverted or.
+- departure_delay (Actual_departure - Scheduled_departure), 
+- arrival_delay (Actual_arrival - Scheduled_arrival) , 
+- elapsed_delay (Actual_elapsed - Scheduled_elapsed ), 
+- flight cancelled or not, 
+- flight diverted or.
 
 After combining flight_traffic and stock_price tables, she calculated the average departure_delay, arrival_delay, elapsed_delay for each airline_id, and the total numbers of flights cancelled or diverted on each day. She plotted those along stock prices for various airlines to find if there is any correlation among stock_price and any of these factors.
 She found out that there is almost zero correlation of stock prices with these factors.
