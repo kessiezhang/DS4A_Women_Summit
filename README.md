@@ -30,23 +30,17 @@ Airline_EDA_Kessie.ipynb
 
 * Airline_traffic_stock_EDA_Sakshi.ipynb </br>
 
-In order to have insights, I combined data from 2 tables: flight_traffic.csv and stock_prices.csv
-Flight_traffic has data for each flight with columns like airline_id, origin and destination airports, and various other statistics like :
-Actual_departure, scheduled_departure-> departure_delay
-Actual_arrival, scheduled_arrival -> arrival_delay
-Actual_elapsed, scheduled_elapsed -> elapsed_delay
-Flight: cancelled or not
-Flight: diverted or not
+Sakshi created 5 columns for the flight_traffic table: 
+departure_delay (Actual_departure - Scheduled_departure), 
+arrival_delay (Actual_arrival - Scheduled_arrival) , 
+elapsed_delay (Actual_elapsed - Scheduled_elapsed ), 
+flight cancelled or not, 
+flight diverted or.
 
-Also, stock_prices 
-Have columns like day, airline_id and stock_price that day.
+After combining flight_traffic and stock_price tables, she calculated the average departure_delay, arrival_delay, elapsed_delay for each airline_id, and the total numbers of flights cancelled or diverted on each day. She plotted those along stock prices for various airlines to find if there is any correlation among stock_price and any of these factors.
+She found out that there is almost zero correlation of stock prices with these factors.
+Based on this EDA, her assumption is that we cannot regress stock prices on these factors, and
+delay/cancellation patterns do not have a substantial impact on stock / financial performance. 
 
-I combined those tables and got 
-For each airline_id: average departure_delay, arrival_delay, elapsed_delay.
-Also Total no. of flights cancelled or diverted on each day
-And plotted those along stock prices for various airlines to find is there any correlation among stock_price and any of these factors.
-I found out there is almost zero correlation of stock prices with these factors.
-So, my analysis is that we cannot regress stock prices on these factors. 
-So, delay/cancellation patterns do not have a substantial impact on stock / financial performance.
 
  
