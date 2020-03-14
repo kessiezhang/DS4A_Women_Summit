@@ -1,6 +1,6 @@
 # DS4A_Women_Summit
 
-Project Goal:
+#### Project Goal:
 In this project, we are trying to see if delay/cancellation patterns impact stock / financial performance at all. 
 
 #### Data:
@@ -42,5 +42,10 @@ She found out that there is almost zero correlation of stock prices with these f
 Based on this EDA, her assumption is that we cannot regress stock prices on these factors, and
 delay/cancellation patterns do not have a substantial impact on stock / financial performance. 
 
+#### Airline_EDA_Kessie.ipynb </br>
+Kessie plotted the numbers of delays caused by the airline, weather, air_system, security and aircraft across different airlines. Her hypothesis is that airline delays can cause aircraft delay for the next flight. She also added event_original and event_destination columns which indicate whether there was an event at the original and destination airport on each day. In general, April, July and October have more delays and cancellations. Besides, she also plotted how the stock performance overtime for each airline. Based on the observation, AS airline has the highest stock price. In addition, she took the difference stock price between the previous date and the current date, and she was planning to use this difference as the response variable y for the regression model. 
+
+#### EDA_NJ.ipynb </br>
+Niharika calculated the total fares for each airline. She found that American Airlines Inc. has the highest fares for the entire year in 2017. She also plotted the difference between the numbers of flights that got cancelled/diverted vs the numbers of flights that did not get cancelled/diverted across different airlines. 
 
  
