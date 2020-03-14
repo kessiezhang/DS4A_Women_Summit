@@ -28,7 +28,8 @@ Airline_EDA_Kessie.ipynb
 
 ### Summary
 
-* Airline_traffic_stock_EDA_Sakshi.ipynb
+* Airline_traffic_stock_EDA_Sakshi.ipynb </br>
+
 In order to have insights, I combined data from 2 tables: flight_traffic.csv and stock_prices.csv
 Flight_traffic has data for each flight with columns like airline_id, origin and destination airports, and various other statistics like :
 Actual_departure, scheduled_departure-> departure_delay
