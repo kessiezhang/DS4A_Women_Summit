@@ -31,7 +31,7 @@ Airline_EDA_Kessie.ipynb
 * Airline_traffic_stock_EDA_Sakshi.ipynb </br>
 
 Sakshi created 5 columns for the flight_traffic table: 
-departure_delay (Actual_departure - Scheduled_departure), 
+<tr>departure_delay (Actual_departure - Scheduled_departure), 
 arrival_delay (Actual_arrival - Scheduled_arrival) , 
 elapsed_delay (Actual_elapsed - Scheduled_elapsed ), 
 flight cancelled or not, 
